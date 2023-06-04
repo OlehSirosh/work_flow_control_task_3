@@ -10,6 +10,7 @@ Input data:
 1900
 1601
 2000
+2023
 */
 
 
@@ -20,7 +21,7 @@ int getCentury(int year) {
 }
 
 void main() {
-  List<int> years = [1705, 1900, 1601, 2000];
+  List<int> years = [1705, 1900, 1601, 2000, 2023];
 
   for (int year in years) {
     int century = getCentury(year);
